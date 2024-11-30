@@ -20,7 +20,7 @@ Kod źródłowy programu `przyjaciele` składa się z kilku plików w katalogu `
 * [przyjaciele.c](cgi-bin/przyjaciele.c) — główny moduł programu. Ten moduł zawiera funkcje, które tworzą strony internetowe na podstawie danych przekazanych przez użytkownika i danych zapisanych w bazie danych. Aby program `przyjaciele` działał, należy uzupełnić ten moduł zgodnie z poniższą instrukcją
 
 ## Co robić?
-1. W wierszu poleceń wpisać na próbę polecenia `git`, `make` i `gcc`. Aby wykonać zadanie, każde z tych poleceń musi być zainstalowane.
+1. W terminalu wpisać na próbę polecenia `git`, `make` i `gcc`. Aby wykonać zadanie, każde z tych poleceń musi być zainstalowane.
 2. Założyć własne konto na GitHubie (https://github.com) i zalogować się na to konto
 3. W prawym górnym rogu strony https://github.com/MarcinCiura/UKEN-WdP/ kliknąć **Fork** i postępować według instrukcji z [tej strony](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository)
 4. Pobrać na komputer pliki ze swojej kopii repozytorium zgodnie z instrukcją z [tej strony](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository)
@@ -31,10 +31,10 @@ Kod źródłowy programu `przyjaciele` składa się z kilku plików w katalogu `
 9. Jeśli podczas kompilowania programu wystąpią błędy, poprawić kod w pliku `przyjaciele.c` i wrócić do punktu 7
 10. Powstał program `przyjaciele.exe`, hurra!
 11. Zmienić katalog: `cd ..`
-12. Uruchomić plik `uruchom.bat`
+12. Uruchomić plik `./uruchom.bat`
 13. Otworzyć w przeglądarce stronę http://localhost:8000/cgi-bin/przyjaciele.exe i cieszyć się pierwszą stroną serwisu internetowego
-14. Potem uzupełniać w edytorze kolejne funkcje z pliku `przyjaciele.c`: `stan_B`, `wygeneruj_kod`, `stan_C`, `stan_D`, `stan_E`. Wyniki pracy można sprawdzać na bieżąco, powtarzając punkty 7-13
-15. Na koniec dnia zapisać zmiany na swoim koncie na GitHubie: wydać kolejno polecenia `git add przyjaciele.c`, `git commit -m "Opis zmian, na przykład: uzupełniono funkcje do stan_C"`, `git push origin main`
+14. Potem przerwać działanie pliku `./uruchom.bat` kombinacją klawiszy Ctrl+C i uzupełniać w edytorze kolejne funkcje z pliku `przyjaciele.c`: `stan_B`, `wygeneruj_kod`, `stan_C`, `stan_D`, `stan_E`. Wyniki pracy można sprawdzać na bieżąco, powtarzając punkty 7-13
+15. Na koniec dnia zapisać zmiany na swoim koncie na GitHubie: wydać kolejno polecenia `git add cgi-bin/przyjaciele.c`, `git commit -m "Opis zmian, na przykład: uzupełniono funkcje do stan_C"`, `git push origin main`
 
 ## Schematy blokowe tych funkcji, które należy uzupełnić
 
