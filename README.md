@@ -25,7 +25,7 @@ Kod źródłowy programu `przyjaciele` składa się z kilku plików w katalogu `
 3. W prawym górnym rogu strony https://github.com/MarcinCiura/UKEN-WdP/ kliknąć **Fork** i postępować według instrukcji z [tej strony](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository)
 4. Pobrać na komputer pliki ze swojej kopii repozytorium zgodnie z instrukcją z [tej strony](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository)
 5. Zmienić katalog: `cd UKEN-WdP/cgi-bin`
-6. Otworzyć w edytorze plik `przyjaciele.c` i uzupełnić w nim na początek funkcję `stan_A` zgodnie z poniższym schematem blokowym
+6. Otworzyć w edytorze plik `przyjaciele.c` (na przykład wydając polecenie `pico przyjaciele.c`) i uzupełnić w tym pliku na początek funkcję `stan_A` zgodnie z poniższym schematem blokowym
 7. Zapisać plik `przyjaciele.c`
 8. Wydać polecenie `make`
 9. Jeśli podczas kompilowania programu wystąpią błędy, poprawić kod w pliku `przyjaciele.c` i wrócić do punktu 7
